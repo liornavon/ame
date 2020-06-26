@@ -1,4 +1,3 @@
-```latex
 <html> 
 <head>
     <title>Greeting Message</title> 
@@ -12,6 +11,7 @@
     text-align: center;
     line-height: 1.5;
     height:85%
+
 
 }
 #date{
@@ -52,7 +52,6 @@ body{
         greet = 'Good Evening  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+="Lior "`<div id="date"> It's ${date}</div>`;
+        greet+= "Lior " +`<div id="date"> It's ${date}</div>`;
 </script> 
 </html>
-```
